@@ -1,13 +1,13 @@
 [numerical]
 n_x = 256
 n_z = 64
-nsteps = 55000
+nsteps = 4000
 nwrite = 200
-restart = true
+restart = false
 
 [physical]
-ranum = 1000000.0
-int_heat = 0
+ranum = 100000.0
+int_heat = 0.1
 temp_init = 0.5
 pert_init = "random"
 var_visc = false
@@ -16,4 +16,4 @@ var_visc_depth = 1.0
 periodic = false
 
 [inout]
-outdir = "Ra_1e6"
+outdir = "Ra_1e6_0.1"

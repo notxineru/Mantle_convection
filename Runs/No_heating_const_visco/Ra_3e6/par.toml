@@ -1,9 +1,9 @@
 [numerical]
 n_x = 256
 n_z = 64
-nsteps = 4000
+nsteps = 6000
 nwrite = 200
-restart = false
+restart = true
 
 [physical]
 ranum = 3000000.0
